@@ -1,8 +1,9 @@
-var canvas = document.getElementById('snakeCanvas');
-var context = canvas.getContext('2d');
+
 var sizeOfSnake = 4;  //Define initial size of snake
 
 /* Do not change the following*/
+var canvas = document.getElementById('snakeCanvas');
+var context = canvas.getContext('2d');
 var transformer = sizeOfSnake * 10; 
 var orient = 'R';
 var counter = 0;
